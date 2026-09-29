@@ -47,6 +47,8 @@
   .cell.cur{border-color:#fff;box-shadow:0 0 0 2px rgba(255,255,255,.3)}
   .cell svg{width:100%;height:auto;display:block}
   footer{max-width:1080px;margin:0 auto;padding:0 20px 40px;color:var(--mut);font-size:12px}
+  footer a{color:var(--txt)}
+  footer .credit{margin-top:10px;padding-top:10px;border-top:1px solid var(--line)}
 </style>
 </head>
 <body>
@@ -144,7 +146,11 @@
     <div class="grid" id="grid"></div>
   </div>
 </main>
-<footer>fan-made concept visualizer. not affiliated with beats or apple. colors are approximations.</footer>
+<footer>
+  <p>fan-made concept visualizer. not affiliated with beats or apple. colors are approximations.</p>
+  <p class="credit">vibe-coded with <strong>Muse</strong>, Meta's personal AI agent — from idea to live site in about 7 minutes.<br>
+  want your own? <a href="https://muse.ai/join">check out Muse</a> and redeem code <strong>8MHYLP</strong> in Settings within 48 hours of joining — we'll both get 1 billion Muse tokens.</p>
+</footer>
 <script>
 const FRAMES = [
   {n:'Black', c:'#262626'},
